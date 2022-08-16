@@ -58,8 +58,9 @@ public class Player : MonoBehaviour
         isMove = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        if(!other.TryGetComponent(out GamePoint _)) return;
         isMove = false;
         MoveBack();
     }

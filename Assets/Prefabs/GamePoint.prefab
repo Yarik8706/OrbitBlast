@@ -114,4 +114,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb3e110b4504255bb3499c70d482254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effect: {fileID: 7776409519791287077, guid: 3a7f66088ddff1e48b2d729ade481ca9, type: 3}
   gameController: {fileID: 0}
